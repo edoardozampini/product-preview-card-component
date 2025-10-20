@@ -1,0 +1,73 @@
+:root {
+    --clr-cream: hsl(30, 38%, 92%);
+    --clr-dark: hsl(212, 21%, 14%);
+    --clr-muted: hsl(228, 12%, 48%);
+    --clr-accent: hsl(158, 36%, 37%);
+    --clr-accent-hover: hsl(158, 36%, 27%);
+}
+
+body {
+    background-color: var(--clr-cream);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--clr-dark);
+}
+
+h1,
+.display-title {
+    font-family: 'Fraunces', serif;
+}
+
+.text-muted-custom {
+    color: var(--clr-muted) !important;
+}
+
+.ls-2 {
+    letter-spacing: .3rem;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.btn-accent {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--clr-accent);
+    --bs-btn-border-color: var(--clr-accent);
+    --bs-btn-hover-bg: var(--clr-accent-hover);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-border-color: var(--clr-accent-hover);
+    --bs-btn-active-bg: var(--clr-accent-hover);
+    --bs-btn-active-color: #fff;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+}
+
+.img-product {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+@media (min-width: 768px) {
+    .img-product {
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-card {
+    padding: 10% ;
+}
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .price {
+        font-size: 2.5rem !important;
+    }
+}
+
+
+
