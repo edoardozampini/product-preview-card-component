@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-using-bootstrap-1_VHCXd8yp](https://www.frontendmentor.io/solutions/product-preview-card-component-using-bootstrap-1_VHCXd8yp)
 - Live Site URL: [https://product-preview-cmpt.netlify.app/](https://product-preview-cmpt.netlify.app/)
 
 ## My process
